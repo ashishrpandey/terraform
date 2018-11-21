@@ -1,4 +1,3 @@
-
 provider "vsphere" {
   user           = "administrator@vsphere.local"
   password       = "Pa$$$$w0rd"
@@ -9,21 +8,21 @@ provider "vsphere" {
 }
 
 data "vsphere_datacenter" "dc" {
-  name = "dc1"
+
 }
 
 data "vsphere_datastore" "datastore" {
-  name          = "datastore1"
+  name          =  "ds"
   datacenter_id = "${data.vsphere_datacenter.dc.id}"
 }
 
 data "vsphere_resource_pool" "pool" {
-  name          = "cluster1/Resources"
+  name          = "Group1"
   datacenter_id = "${data.vsphere_datacenter.dc.id}"
 }
 
 data "vsphere_network" "network" {
-  name          = "public"
+  name          = "VM Network"
   datacenter_id = "${data.vsphere_datacenter.dc.id}"
 }
 
