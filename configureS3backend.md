@@ -8,15 +8,17 @@
     export AWS_SECRET_ACCESS_KEY=""
     export AWS_DEFAULT_REGION="ap-south-1"
 
-in the main.tf files:
-terraform {
-  backend "s3" {
-    bucket = "mybucket"
-    key    = "path/to/my/key"
-    region = "us-east-1"
-  }
-}
+Once the credencials to AWS are setup
+in the main.tf files add and edit following block:
 
-##Run terraform init after that
+    terraform {
+       backend "s3" {
+         bucket = "mybucketname"
+         key    = "path/to/your/user-defined-terraform-state-file-name"
+         region = "us-east-1"
+      }
+    }
 
-## In case of an issue in initialization delete .terraform folder ans run terraform init again
+## Run terraform init after that
+
+## In case of an issue in initialization delete .terraform folder in current directory and run terraform init again
