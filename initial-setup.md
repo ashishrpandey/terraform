@@ -18,11 +18,6 @@ Login your Amazon linux 2 machine [For Other OS the commands may differ]
       Default region name [None]: ****
       Default output format [None]:
 
-### Install Terraform 
-
-      wget https://releases.hashicorp.com/terraform/0.11.8/terraform_0.11.8_linux_amd64.zip
-      unzip terraform_0.11.8_linux_amd64.zip -d /bin/
-      terraform --version
 
 ### Install Docker 
 
@@ -32,3 +27,6 @@ Used to play for Container exercises
       yum install docker -y
       service docker start
       docker --version
+
+
+Now you can go on to do Terraform Setup
