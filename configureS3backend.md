@@ -1,7 +1,7 @@
  # Configure S3 backend
  
- ### AWS Credentials in main.tf may not work
- ### so put it as environment variable
+ AWS Credentials in main.tf may not work
+ put it as environment variable
  
  
     export AWS_ACCESS_KEY_ID=""
@@ -19,6 +19,6 @@ in the main.tf files add and edit following block:
       }
     }
 
-## Run terraform init after that
+Run terraform init after that
 
-## In case of an issue in initialization delete .terraform folder in current directory and run terraform init again
+In case of an issue in initialization delete .terraform folder in current directory and run terraform init again
