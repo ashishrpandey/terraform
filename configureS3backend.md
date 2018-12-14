@@ -1,10 +1,12 @@
- #"AWS Credentials in main.tf may not work"
- # so put it as environment variable
+ # Configure S3 backend
+ 
+ ### AWS Credentials in main.tf may not work
+ ### so put it as environment variable
  
  
- export AWS_ACCESS_KEY_ID=""
- export AWS_SECRET_ACCESS_KEY=""
- export AWS_DEFAULT_REGION="ap-south-1"
+    export AWS_ACCESS_KEY_ID=""
+    export AWS_SECRET_ACCESS_KEY=""
+    export AWS_DEFAULT_REGION="ap-south-1"
 
 in the main.tf files:
 terraform {
