@@ -1,6 +1,4 @@
- vim main.tf
- vim ../ibm_class/storage/main.tf
- vim main.tf
+Go to your working directory
  terraform state --help
  terraform state pull
  terraform state list
