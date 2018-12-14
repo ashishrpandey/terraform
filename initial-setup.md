@@ -1,3 +1,7 @@
+
+Login your Amazon linux 2 machine [For Other OS the commands may differ]
+
+### Update yum 
 sudo su 
 yum update -y 
 
