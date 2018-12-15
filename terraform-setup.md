@@ -22,7 +22,7 @@ To install Terraform 0.11.10:
 ### install unzip if not done already
     sudo apt-get install unzip  
 ### unzip the package
-    sudo unzip terraform_0.11.10inux_amd64.zip -d /usr/local/bin/
+    sudo unzip terraform_0.11.10_linux_amd64.zip -d /usr/local/bin/
    
 
 
