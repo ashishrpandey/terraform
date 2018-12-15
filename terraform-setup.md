@@ -17,7 +17,7 @@ login to your linux system
 
 To install Terraform 0.11.10:
 
-    sudo curl -O https://releases.hashicorp.com/terraform/0.11.5/terraform_0.11.10_linux_amd64.zip
+    sudo curl -O https://releases.hashicorp.com/terraform/0.11.10/terraform_0.11.10_linux_amd64.zip
     
 ### install unzip if not done already
     sudo apt-get install unzip  
